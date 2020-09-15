@@ -22,3 +22,7 @@ resource "aws_dynamodb_table" "tfc_example_table" {
     type = "S"
   }
 }
+
+resource "aws_s3_bucket" "buc1" {
+  
+}
