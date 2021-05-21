@@ -1,5 +1,6 @@
 variable "tag_user_name" {
-
+  type = string
+  default = "aseefahmed"
 }
 
 variable "aws_region" {
